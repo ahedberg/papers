@@ -1,7 +1,7 @@
-Doc.no.: Dxxxx
-Date: 2018-09-17
-Reply-to: Titus Winters, Ashley Hedberg, Eric Fiselier
-Audience: LEWG
+Doc.no.: Dxxxx  
+Date: 2018-09-17  
+Reply-to: Titus Winters, Ashley Hedberg, Eric Fiselier  
+Audience: LEWG  
 
 # Extension by inspecting members of User Defined Types?
 
