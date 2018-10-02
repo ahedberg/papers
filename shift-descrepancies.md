@@ -1,6 +1,6 @@
 Doc. no.: Pxxxx  
-Date: 2018-10-02
-Reply-to: Ashley Hedberg (ahedberg@google.com)
+Date: 2018-10-02  
+Reply-to: Ashley Hedberg (ahedberg@google.com)  
 Audience: LEWG/LWG
 
 # Discrepancies between `expr.shift` and P0769R2
