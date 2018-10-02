@@ -11,7 +11,7 @@ item (7) of the design decisions section. This is surprising for two reasons:
 
 -   [`expr.shift`](http://eel.is/c++draft/expr.shift) places a different precondition on the shift operators `<<` and `>>`: the right operand must be greater than or equal to 0.
 
--   The [LWG discussion notes](http://wiki.edg.com/bin/view/Wg21rapperswil2018/LWGP0769) on P0769R2 suggest that there are APIs which perform a left-shift when invoking `shift_right` with a negative `n`, and perform a right-shift when invoking `shift_left` with a negative `n`. One example is [perlop](http://shortn/_Uz897VKAPn).
+-   The [LWG discussion notes](http://wiki.edg.com/bin/view/Wg21rapperswil2018/LWGP0769) on P0769R2 suggest that there are APIs which perform a left-shift when shifting right by a negative `n`, and perform a right-shift when shifting left by a negative `n`. One example is [perlop](https://perldoc.perl.org/perlop.html#Shift-Operators).
 
 The current treatment of a negative shift as a shift of 0 seems unlikely to match user intent and may hide bugs. If the programmer explicitly wrote a negative value, they probably didn't expect a shift of 0. If the user specified a negative shift as the result of some programmatic calculation, it is likely that the calculation was incorrect, or that a shift in the opposite direction would be the correct behavior. Either way, implicitly shifting by 0 feels questionable.
 
