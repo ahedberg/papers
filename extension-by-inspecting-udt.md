@@ -1,6 +1,6 @@
 Doc.no.: Dxxxx  
-Date: 2018-09-17  
-Reply-to: Titus Winters, Ashley Hedberg, Eric Fiselier  
+Date: 2018-10-04  
+Reply-to: Titus Winters (titus@google.com), Ashley Hedberg (ahedberg@google.com), Eric Fiselier (eric@efcs.ca)  
 Audience: LEWG  
 
 # Extension by inspecting members of User Defined Types?
